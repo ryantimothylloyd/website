@@ -1,0 +1,52 @@
+#main-content{
+    max-width: 960px;
+    //margin-left: 360px;
+    margin-right: auto;
+}
+#maths-with-image{
+}
+
+.maths-with-image img {
+  display: inline-block;
+  vertical-align: middle;
+}​
+
+hr{
+
+    border-bottom: 1px solid #323232;
+}
+
+.img-hor {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#play-name {
+  display: inline;
+  margin-right: 5px;
+}
+
+#play1 {
+  display: inline-block;
+  width:-webkit-calc(100% - 125px);
+  word-wrap: break-word;
+  vertical-align: top;
+}
+
+#play2 {
+  display: inline-block;
+  width:-webkit-calc(100% - 215px);
+  word-wrap: break-word;
+  vertical-align: top;
+}
+
+#play-speech {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  -ms-word-wrap: break-word;
+  -ms-word-break: break-word;
+}

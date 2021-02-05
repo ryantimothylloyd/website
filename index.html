@@ -1,11 +1,103 @@
+<!DOCTYPE html>
 <html lang="en-us">
 
-  <head>  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+
+      Ryan Lloyd -- Personal Webpage
+
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/poole.css">
+  <link rel="stylesheet" href="css/syntax.css">
+  <link rel="stylesheet" href="css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+  <link rel="stylesheet" href="css/custom2.css">
+
+  <!-- Icons -->
+ <link rel="shortcut icon" href="http://discoverphilippines.com.ph/wp-content/uploads/2014/12/coffee.png">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+
+  <!-- SageCell server support -->
+  <script src="http://sagecell.sagemath.org/static/jquery.min.js"></script>
+  <script src="http://sagecell.sagemath.org/embedded_sagecell.js"></script>
+  <script>
+$(function () {
+    // Make the div with class 'sage-evaluate' a Sage cell
+sagecell.makeSagecell({inputLocation:  'div.sage-evaluate', evalButtonText: 'Evaluate'});
+    // Make *any* div with class 'sage-activate' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage-activate',
+evalButtonText: 'Activate', autoeval: false, hide: ["editor"]});
+    // Make *any* div with class 'sage-automatic' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage-automatic',
+autoeval: true, hide: ["editor","evalButton","language","permalink"]});
+
+//Linked-sage-cells.
+    // Make the div with class 'sage-linked' an invisible Sage cell
+    sagecell.makeSagecell({inputLocation:  'div.sage-linked', evalButtonText: 'Evaluate', autoEval: true, linked: true, hide: ["editor", "evalButton", "permalink"]});
+    // Make the div with class 'sage-evaluate-linked' a Sage cell
+    sagecell.makeSagecell({inputLocation:  'div.sage-evaluate-linked', evalButtonText: 'Evaluate', linked: true});
+    // Make *any* div with class 'sage-activate-linked' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage-activate-linked',
+evalButtonText: 'Activate', autoeval: false, hide: ["editor"], linked: true});
+    // Make *any* div with class 'sage-automatic-linked' a Sage cell
+    sagecell.makeSagecell({inputLocation: 'div.sage-automatic-linked',
+autoeval: true, hide: ["editor","evalButton","language","permalink"], linked: true});
+});
+  </script>
+  <link rel="stylesheet" type="text/css" href="https://sagecell.sagemath.org/static/sagecell_embed.css">
 
 </head>
 
-<h3>Ryan Lloyd</h3>
 
-<p>Get ready.</p>
+<body>
 
-</html>
+    <div class="sidebar">
+	<p><img src="" title="" alt="" height="320" width="320"></p>
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="">
+         Ryan </br> Lloyd
+        </a>
+      </h1>
+      <p class="lead">Man of mystery<br> @<a href="" target="_blank">link</a><br> @<a href="" target="_blank">link</a></p>
+    </div>
+
+    <nav class="sidebar-nav">
+    <a class="sidebar-nav-item" href="">Link 1</a>
+	  <a class="sidebar-nav-item" href="">Link 2</a>
+  </div>
+</div>
+
+    <div class="content container" id="main-content">
+
+    <div class="posts">
+    <h3>I am Ryan </h3>
+
+    I am Lloyd.
+
+    <!-- <div class="pagination">
+
+    <span class="pagination-item older">Older</span>
+
+
+    <span class="pagination-item newer">Newer</span>
+
+    </div> -->
+
+    </div>
+
+    </body>
+    </html>
