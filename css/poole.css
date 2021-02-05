@@ -58,6 +58,11 @@ html {
   }
 }
 
+@font-face {
+  font-family: 'MyWebFont';
+       url('myfont.ttf')  format('truetype') /* Safari, Android, iOS */
+}
+
 body {
   color: #515151;
   background-color: #fff;
