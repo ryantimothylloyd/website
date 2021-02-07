@@ -16,15 +16,25 @@
     z-index:-1;
 }
 
+#inner {
+  border: 1px solid black;
+}
+
+#outer {
+  border: 1px solid red;
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
 .imgContainer{
-      max-width: 380rem;
       padding-left:  1.5rem;
       padding-right: 1.5rem;
       padding-top:  1.5rem;
-      padding-bottom: 1.5rem;    
+      padding-bottom: 1.5rem;
       margin-left:  auto;
       margin-right: auto;
-vertical-align: top
+      vertical-align: top;
     }
 
 .maths-with-image img {
