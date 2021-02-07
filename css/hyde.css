@@ -31,21 +31,8 @@
  * Update the foundational and global aspects of the page.
  */
 
- @font-face {
-     font-family: 'WasAScreenfont';
-     src: url('WasAScreenfont.eot');
-     src: url('WasAScreenfont.eot?#iefix') format('embedded-opentype'),
-         url('WasAScreenfont.woff2') format('woff2'),
-         url('WasAScreenfont.woff') format('woff'),
-         url('WasAScreenfont.ttf') format('truetype'),
-         url('WasAScreenfont.svg#WasAScreenfont') format('svg');
-     font-weight: 500;
-     font-style: normal;
-     font-display: swap;
- }
-
 html {
-  font-family: "WasAScreenfont", serif;
+  font-family: 'Averia Serif Bold', serif;
 }
 
 @media (min-width: 58em) {
@@ -100,7 +87,6 @@ html {
   color: #fff;
   margin-top: 0;
   /*font-family: "Helvetica", serif; */
-  font-family: "WasAScreenfont", serif;
   font-size: 2.9rem;
 }
 
