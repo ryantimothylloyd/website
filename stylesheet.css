@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'WasAScreenfont';
+    src: url('WasAScreenfont.eot');
+    src: url('WasAScreenfont.eot?#iefix') format('embedded-opentype'),
+        url('WasAScreenfont.woff2') format('woff2'),
+        url('WasAScreenfont.woff') format('woff'),
+        url('WasAScreenfont.ttf') format('truetype'),
+        url('WasAScreenfont.svg#WasAScreenfont') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

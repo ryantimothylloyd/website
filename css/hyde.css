@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "WasAScreenfont", serif;
 }
 @media (min-width: 48em) {
   html {
@@ -55,7 +55,7 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 1rem 1rem;
+  padding: 0rem 0em;
   color: rgba(255,255,255,.5);
   background-color: #000000;
 }
@@ -89,7 +89,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Helvetica", serif;
+  /*font-family: "Helvetica", serif; */
+  font-family: "WasAScreenfont", serif;
   font-size: 2.9rem;
 }
 

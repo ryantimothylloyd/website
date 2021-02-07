@@ -230,9 +230,6 @@ blockquote {
 blockquote p:last-child {
   margin-bottom: 0;
 }
-@font-face {
-  font-family: 'MyWebFont';
-       url('myfont.ttf')  format('truetype') /* Safari, Android, iOS */
 }
 @media (min-width: 30em) {
   blockquote {
